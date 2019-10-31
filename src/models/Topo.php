@@ -72,7 +72,7 @@ class Topo extends ActiveRecord
     public function fields()
     {
         $fields = parent::fields();
-        unset($fields['deleted_at'], $fields['devicedata'], $fields['topojson'], $fields['regularjson']);
+        unset($fields['deleted_at']);
 
         return $fields;
     }
