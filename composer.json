@@ -1,0 +1,20 @@
+{
+    "name": "simple/image",
+    "description": "Image module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhanghongbean",
+            "email": "zhanghong_bean@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "simple\\image\\": "src"
+        }
+    },
+    "require": {
+
+    }
+}
